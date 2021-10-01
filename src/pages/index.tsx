@@ -6,8 +6,12 @@ import {
   Image,
   Center,
   useBreakpointValue,
+  Code,
+  Button,
+  Flex,
+  Link as ChakraLink,
 } from "@chakra-ui/react";
-import React from "react";
+import { AiFillGithub } from "react-icons/ai";
 
 import MotionBox from "components/motion/MotionBox";
 import { Main } from "components/wrapper/Main";
@@ -48,6 +52,48 @@ const Index = () => {
           />
         </MotionBox>
       </Center>
+      <Flex align="center" gridGap={2} justify="center" wrap="wrap">
+        <Code fontSize={textSize}>
+          npx degit yehezkielgunawan/yehez-nextchakra-starter {" "}
+          {"<YOUR_APP_NAME>"}
+        </Code>
+
+        <Button
+          as="a"
+          href="https://github.com/yehezkielgunawan/yehez-nextchakra-starter/generate"
+          size="sm"
+          colorScheme="teal"
+          variant="outline"
+          target="_blank"
+        >
+          Use This Template
+        </Button>
+      </Flex>
+      <Flex align="center" gridGap={3} justify="center" wrap="wrap">
+        <Button
+          as="a"
+          href="https://github.com/yehezkielgunawan/yehez-nextchakra-starter"
+          leftIcon={<AiFillGithub />}
+          target="_blank"
+        >
+          Open in Github
+        </Button>
+        <ChakraLink
+          isExternal
+          href="https://vercel.com/import/git?s=https://github.com/yehezkielgunawan/yehez-nextchakra-starter"
+        >
+          <Image src="https://vercel.com/button" alt="Vercel deploy button" />
+        </ChakraLink>
+        <ChakraLink
+          isExternal
+          href="https://app.netlify.com/start/deploy?repository=https://github.com/yehezkielgunawan/yehez-nextchakra-starter"
+        >
+          <Image
+            src="https://www.netlify.com/img/deploy/button.svg"
+            alt="Netlify deploy button"
+          />
+        </ChakraLink>
+      </Flex>
     </Main>
   );
 };
