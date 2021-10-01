@@ -1,39 +1,28 @@
-# Example app with [chakra-ui](https://github.com/chakra-ui/chakra-ui) and TypeScript
+![Yehezkiel Gunawan's Next JS + Chakra UI Personalized template](https://socialify.git.ci/yehezkielgunawan/yehezgun.com/image?description=1&descriptionEditable=Yehezkiel%20Gunawan%27s%20personalized%20Next%20JS%20%2B%20Chakra%20UI%20starter%20template&font=KoHo&logo=https%3A%2F%2Fres.cloudinary.com%2Fyehez%2Fimage%2Fupload%2Fv1630902976%2FAssassination_Classroom_-_Koro-sensei_smiling_head_fwpndi.svg&owner=1&pattern=Circuit%20Board&theme=Dark)
 
-This example features how to use [chakra-ui](https://github.com/chakra-ui/chakra-ui) as the component library within a Next.js app with TypeScript.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/yehezkielgunawan/yehez-nextchakra-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yehezkielgunawan/yehez-nextchakra-starter)
 
-Next.js and chakra-ui have built-in TypeScript declarations, so we'll get autocompletion for their modules straight away.
+This is a Next JS + Chakra UI personalized template based on [Chakra UI examples template](https://github.com/vercel/next.js/tree/canary/examples/with-chakra-ui-typescript). Live demo can be accessed at [yehez-nextchakra-starter.yehezgun.com](https://yehez-nextchakra-starter.yehezgun.com). Actually, I made this for myself so I don't need to waste my time to overthinking about the config and setup and focusing on the development.
 
-We are connecting the Next.js `_app.js` with `chakra-ui`'s Provider and theme so the pages can have app-wide dark/light mode. We are also creating some components which shows the usage of `chakra-ui`'s style props.
+But if you can find this template helps you too, you also can use it. And of course I'm open to any feedbacks. You can fork or clone this repo and make a PR here if you have a some idea.
 
-## Preview
+## ⚡ What's include here?
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+- Toolings for linting, formatting, and conventions configured
+  Currently, there're just `eslint, prettier`.
+- ✨Basic responsive layout configuration (using Chakra UI media query)
+- SEO Optimization (using `next-seo`)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-chakra-ui-typescript)
+## How to use it?
 
-## Deploy your own
+- You can open [yehez-nextchakra-starter.yehezgun.com](https://yehez-nextchakra-starter.yehezgun.com) and click `Use this template` button.
+- Or you can clone this repo using degit in your terminal `npx degit yehezkielgunawan/yehez-nextchakra-starter <YOUR_APP_NAME>`
+- Don't forget to install the needed dependencies using `npm install` or `yarn`
+- Then run the local server using `yarn dev` or `npm run dev`
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## References
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-chakra-ui-typescript&project-name=with-chakra-ui-typescript&repository-name=with-chakra-ui-typescript)
-
-## How to use
-
-### Using `create-next-app`
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-chakra-ui-typescript with-chakra-ui-typescript-app
-# or
-yarn create next-app --example with-chakra-ui-typescript with-chakra-ui-typescript-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-## Notes
-
-Chakra has supported Gradients and RTL in `v1.1`. To utilize RTL, [add RTL direction and swap](https://chakra-ui.com/docs/features/rtl-support).
-
-If you don't have multi-direction app, you should make `<Html lang="ar" dir="rtl">` inside `_document.ts`.
+- [Next.js Docs](https://nextjs.org/docs/getting-started) - Learn about Next JS and its features
+- [Chakra UI](https://chakra-ui.com/) - UI component
+- [Typescript](https://www.typescriptlang.org/) - The programming language
+- [Sozonome NextChakra Starter Template](https://github.com/sozonome/nextchakra-starter) - as my main reference for the layout and modularized components concept. Thanks for the idea and concept bro, it really helps me a lot to learn React and its tools.

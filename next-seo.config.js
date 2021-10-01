@@ -27,7 +27,7 @@ const defaultSEOConfig = {
   additionalLinkTags: [
     {
       rel: "icon",
-      href: "/assets/yehez_avatar.png",
+      href: "https://res.cloudinary.com/yehez/image/upload/v1630902976/Assassination_Classroom_-_Koro-sensei_smiling_head_fwpndi.svg",
     },
   ],
 };
