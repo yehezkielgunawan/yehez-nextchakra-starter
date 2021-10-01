@@ -3,12 +3,12 @@
     "node": true
   },
   "extends": [
+    "next/core-web-vitals",
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@next/next/recommended"
+    "plugin:@typescript-eslint/recommended"
   ],
   "parser": "@typescript-eslint/parser",
-  "plugins": ["react", "react-hooks", "@typescript-eslint", "import"],
+  "plugins": ["@typescript-eslint", "import"],
   "settings": {
     "import/resolver": {
       "node": {

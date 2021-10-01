@@ -46,6 +46,7 @@ const Index = () => {
           maxWidth={[240, 320]}
         >
           <Image
+            alt="Sample Image"
             boxSize={isDesktopWidth ? "150px" : "100px"}
             objectFit="cover"
             src="https://res.cloudinary.com/yehez/image/upload/v1630902976/Assassination_Classroom_-_Koro-sensei_smiling_head_fwpndi.svg"
@@ -54,7 +55,7 @@ const Index = () => {
       </Center>
       <Flex align="center" gridGap={2} justify="center" wrap="wrap">
         <Code fontSize={textSize}>
-          npx degit yehezkielgunawan/yehez-nextchakra-starter {" "}
+          npx degit yehezkielgunawan/yehez-nextchakra-starter{" "}
           {"<YOUR_APP_NAME>"}
         </Code>
 
