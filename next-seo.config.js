@@ -13,8 +13,10 @@ const defaultSEOConfig = {
     type: "website",
     images: [
       {
-        url: "https://yehez-og-image.yehezgun.com/**yehez-nextchakra-starter**.yehezgun.com.png?theme=dark&md=1&fontSize=50px&images=https%3A%2F%2Fres.cloudinary.com%2Fyehez%2Fimage%2Fupload%2Fv1630987481%2FYG_logo_trg6fp.png&widths=150&heights=150",
+        url: "https://yehez-og-image.yehezgun.com/**yehez-nextchakra-starter**.yehezgun.com.png?theme=dark&md=1&fontSize=50px&images=https%3A%2F%2Fres.cloudinary.com%2Fyehez%2Fimage%2Fupload%2Fv1631970666%2Fyehez_avatar_vkv7pc.png&widths=200&heights=200",
         alt: "yehez-nextchakra-starter.yehezgun.com og-image",
+        width: 800,
+        height: 600,
       },
     ],
     site_name: "yehez-nextchakra-starter",
