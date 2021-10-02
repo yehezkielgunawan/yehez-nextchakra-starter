@@ -8,7 +8,7 @@ type ContainerProps = {
   children: ReactNode;
 };
 
-export const Layout = ({ children }: ContainerProps) => {
+export const ComponentWrapper = ({ children }: ContainerProps) => {
   const { colorMode } = useColorMode();
 
   const color = { light: "black", dark: "white" };

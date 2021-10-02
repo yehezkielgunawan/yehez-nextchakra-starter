@@ -4,7 +4,7 @@ import { AppProps } from "next/app";
 import Head from "next/head";
 import React from "react";
 
-import { Layout } from "components/wrapper/Layout";
+import { ComponentWrapper } from "components/wrapper/ContainerWrapper";
 
 import defaultSEOConfig from "../../next-seo.config";
 import theme from "../theme";
@@ -19,9 +19,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
       </Head>
       <DefaultSeo {...defaultSEOConfig} />
-      <Layout>
+      <ComponentWrapper>
         <Component {...pageProps} />
-      </Layout>
+      </ComponentWrapper>
     </ChakraProvider>
   );
 }

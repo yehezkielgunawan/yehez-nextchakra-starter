@@ -40,7 +40,7 @@ const Index = () => {
       </Box>
       <Center>
         <MotionBox
-          animate={{ y: 20 }}
+          animate={{ y: 20, scale: 0.9 }}
           transition={{ repeat: Infinity, duration: 3, repeatType: "reverse" }}
           marginY={8}
           maxWidth={[240, 320]}

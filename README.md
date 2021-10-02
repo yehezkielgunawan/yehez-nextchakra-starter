@@ -15,7 +15,7 @@ But if you also find this template is useful, you also can use it. And of course
 
 ## How to use it?
 
-- You can open [yehez-nextchakra-starter.yehezgun.com](https://yehez-nextchakra-starter.yehezgun.com) and click `Use this template` button.
+- You can open [yehez-nextchakra-starter.yehezgun.com](https://yehez-nextchakra-starter.yehezgun.com) and click `Use this template` button (**_Don't forget to login to your Github account_**).
 - Or you can clone this repo using degit in your terminal `npx degit yehezkielgunawan/yehez-nextchakra-starter <YOUR_APP_NAME>`
 - Don't forget to install the needed dependencies using `npm install` or `yarn`
 - Then run the local server using `yarn dev` or `npm run dev`
