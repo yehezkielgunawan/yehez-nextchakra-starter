@@ -1,9 +1,9 @@
 import { Text, Link as ChakraLink } from "@chakra-ui/react";
 import React from "react";
 
-import { Footer } from "components/wrapper/Footer";
+import Footer from "components/wrapper/Footer";
 
-export const FooterComponent = () => (
+const FooterComponent = () => (
   <Footer>
     <Text>
       <ChakraLink isExternal href="https://yehezgun.com">
@@ -12,3 +12,5 @@ export const FooterComponent = () => (
     </Text>
   </Footer>
 );
+
+export default FooterComponent;

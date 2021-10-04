@@ -16,7 +16,7 @@ import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 
 import MotionBox from "components/motion/MotionBox";
-import { Main } from "components/wrapper/Main";
+import Main from "components/wrapper/Main";
 import { useDesktopWidthCheck } from "functions/helpers/desktopWidthChecker";
 
 const Index = () => {

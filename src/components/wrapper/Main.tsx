@@ -7,7 +7,7 @@ type MainProps = {
   children: ReactNode;
 };
 
-export const Main = ({ children }: MainProps) => {
+const Main = ({ children }: MainProps) => {
   const isDesktopWidth = useDesktopWidthCheck();
   return (
     <MotionStack
@@ -28,3 +28,5 @@ export const Main = ({ children }: MainProps) => {
     </MotionStack>
   );
 };
+
+export default Main;

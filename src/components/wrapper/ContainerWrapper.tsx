@@ -1,14 +1,14 @@
 import { Flex, useColorMode } from "@chakra-ui/react";
 import React, { ReactNode } from "react";
 
-import { FooterComponent } from "components/layout/FooterComponent";
-import { HeaderComponent } from "components/layout/HeaderComponent";
+import FooterComponent from "components/layout/FooterComponent";
+import HeaderComponent from "components/layout/HeaderComponent";
 
 type ContainerProps = {
   children: ReactNode;
 };
 
-export const ComponentWrapper = ({ children }: ContainerProps) => {
+const ComponentWrapper = ({ children }: ContainerProps) => {
   const { colorMode } = useColorMode();
 
   const color = { light: "black", dark: "white" };
@@ -25,3 +25,5 @@ export const ComponentWrapper = ({ children }: ContainerProps) => {
     </Flex>
   );
 };
+
+export default ComponentWrapper;
