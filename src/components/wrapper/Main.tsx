@@ -30,3 +30,4 @@ const Main = ({ children }: MainProps) => {
 };
 
 export default Main;
+

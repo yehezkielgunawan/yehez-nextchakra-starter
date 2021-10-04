@@ -2,9 +2,8 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { DefaultSeo } from "next-seo";
 import { AppProps } from "next/app";
 import Head from "next/head";
-import React from "react";
 
-import { ComponentWrapper } from "components/wrapper/ContainerWrapper";
+import ComponentWrapper from "components/wrapper/ContainerWrapper";
 
 import defaultSEOConfig from "../../next-seo.config";
 import theme from "../theme";
