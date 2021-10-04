@@ -9,15 +9,25 @@ But if you also find this template is useful, you also can use it. And of course
 ## ⚡ What's include here?
 
 - Toolings for linting, formatting, and conventions configured.
-  Currently, there're just `eslint, prettier`.
+  Currently, there're just `eslint & prettier`.
 - ✨Basic responsive layout configuration (using Chakra UI media query)
 - SEO Optimization (using `next-seo`)
 
 ## How to use it?
 
 - You can open [yehez-nextchakra-starter.yehezgun.com](https://yehez-nextchakra-starter.yehezgun.com) and click `Use this template` button (**_Don't forget to login to your Github account_**).
-- Or you can clone this repo using degit in your terminal `npx degit yehezkielgunawan/yehez-nextchakra-starter <YOUR_APP_NAME>`. Don't forget to install the needed dependencies using `npm install` or `yarn`
-- Or you also can easily use this template by run `npx create-next-app --example https://github.com/yehezkielgunawan/yehez-nextchakra-starter <YOUR_APP_NAME>`
+- Or you can clone this repo using degit in your terminal. Don't forget to install the needed dependencies using `npm install` or `yarn`.
+
+```
+npx degit yehezkielgunawan/yehez-nextchakra-starter <YOUR_APP_NAME>
+```
+
+- Or you also can easily use this template by run:
+
+```
+npx create-next-app --example https://github.com/yehezkielgunawan/yehez-nextchakra-starter <YOUR_APP_NAME>
+```
+
 - Then run the local server using `yarn dev` or `npm run dev`
 
 ## References
