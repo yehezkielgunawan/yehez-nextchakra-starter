@@ -10,7 +10,9 @@ import {
   Button,
   Flex,
   Link as ChakraLink,
+  Stack,
 } from "@chakra-ui/react";
+import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 
 import MotionBox from "components/motion/MotionBox";
@@ -53,23 +55,28 @@ const Index = () => {
           />
         </MotionBox>
       </Center>
-      <Flex align="center" gridGap={2} justify="center" wrap="wrap">
+      <Stack alignItems="center" justifyContent="center">
         <Code fontSize={textSize}>
           npx degit yehezkielgunawan/yehez-nextchakra-starter{" "}
           {"<YOUR_APP_NAME>"}
         </Code>
-
-        <Button
-          as="a"
-          href="https://github.com/yehezkielgunawan/yehez-nextchakra-starter/generate"
-          size="sm"
-          colorScheme="teal"
-          variant="outline"
-          target="_blank"
-        >
-          Use This Template
-        </Button>
-      </Flex>
+        <Text>OR</Text>
+        <Code fontSize={textSize}>
+          npx create-next-app --example
+          https://github.com/yehezkielgunawan/yehez-nextchakra-starter{" "}
+          {"<YOUR_APP_NAME>"}
+        </Code>
+      </Stack>
+      <Button
+        as="a"
+        href="https://github.com/yehezkielgunawan/yehez-nextchakra-starter/generate"
+        size="sm"
+        colorScheme="teal"
+        variant="outline"
+        target="_blank"
+      >
+        Use This Template
+      </Button>
       <Flex align="center" gridGap={3} justify="center" wrap="wrap">
         <Button
           as="a"
