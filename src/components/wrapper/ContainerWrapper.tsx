@@ -1,8 +1,8 @@
 import { Flex, useColorMode } from "@chakra-ui/react";
-import { ReactNode } from "react";
+import React, { ReactNode } from "react";
 
-import { CTA } from "components/layout/CTA";
 import { FooterComponent } from "components/layout/FooterComponent";
+import { HeaderComponent } from "components/layout/HeaderComponent";
 
 type ContainerProps = {
   children: ReactNode;
@@ -19,7 +19,7 @@ export const ComponentWrapper = ({ children }: ContainerProps) => {
       justifyContent="flex-start"
       color={color[colorMode]}
     >
-      <CTA />
+      <HeaderComponent />
       {children}
       <FooterComponent />
     </Flex>

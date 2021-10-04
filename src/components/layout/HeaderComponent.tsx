@@ -1,12 +1,13 @@
 import { useColorMode } from "@chakra-ui/color-mode";
 import { Box, Flex, Text } from "@chakra-ui/layout";
 import NextLink from "next/link";
+import React from "react";
 
 import { useDesktopWidthCheck } from "functions/helpers/desktopWidthChecker";
 
 import { DarkModeSwitch } from "./DarkModeSwitch";
 
-export const CTA = () => {
+export const HeaderComponent = () => {
   const { colorMode } = useColorMode();
   const isDesktopWidth = useDesktopWidthCheck();
   return (
