@@ -29,7 +29,7 @@ const defaultSEOConfig = {
   additionalLinkTags: [
     {
       rel: "icon",
-      href: "https://res.cloudinary.com/yehez/image/upload/v1630902976/Assassination_Classroom_-_Koro-sensei_smiling_head_fwpndi.svg",
+      href: "https://cosmic-s3.imgix.net/2b340f60-b4f8-11e6-90d2-a7e1741e7b9d-next.jpg?w=1200",
     },
   ],
 };

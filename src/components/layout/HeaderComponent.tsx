@@ -1,6 +1,8 @@
 import { useColorMode } from "@chakra-ui/color-mode";
 import { Box, Flex, Text } from "@chakra-ui/layout";
+import { Button } from "@chakra-ui/react";
 import React from "react";
+import { FaGithub } from "react-icons/fa";
 
 import { useDesktopWidthCheck } from "functions/helpers/desktopWidthChecker";
 
@@ -32,7 +34,13 @@ const HeaderComponent = () => {
           <b>yehez-nextjs-chakra-starter</b>
         </Text>
 
-        <DarkModeSwitch />
+        <Flex gridGap={3} align="center">
+          <Button leftIcon={<FaGithub />} variant="ghost" size="sm">
+            Open in Github
+          </Button>
+
+          <DarkModeSwitch />
+        </Flex>
       </Flex>
     </Box>
   );
