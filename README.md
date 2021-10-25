@@ -8,8 +8,8 @@ But if you also find this template is useful, you also can use it. And of course
 
 ## ⚡ What's include here?
 
-- Toolings for linting, formatting, and conventions configured.
-  Currently, there're just `eslint & prettier`.
+- Toolings for linting, formatting, and conventions configured. <br>
+  `eslint`, `prettier`, `husky`, & `lint-staged`.
 - ✨Basic responsive layout configuration (using Chakra UI media query)
 - SEO Optimization (using `next-seo`)
 
