@@ -29,7 +29,7 @@ const defaultSEOConfig = {
   additionalLinkTags: [
     {
       rel: "icon",
-      href: "https://cosmic-s3.imgix.net/2b340f60-b4f8-11e6-90d2-a7e1741e7b9d-next.jpg?w=1200",
+      href: "https://assets.vercel.com/image/upload/v1607554385/repositories/next-js/next-logo.png",
     },
   ],
 };

@@ -1,4 +1,5 @@
-![Yehezkiel Gunawan's Next JS + Chakra UI Personalized template](https://socialify.git.ci/yehezkielgunawan/yehez-nextchakra-starter/image?description=1&font=Inter&logo=https%3A%2F%2Fcosmic-s3.imgix.net%2F2b340f60-b4f8-11e6-90d2-a7e1741e7b9d-next.jpg%3Fw%3D1200&owner=1&pattern=Circuit%20Board&theme=Dark)
+# Yehez-NextChakra-Starter
+![Yehezkiel Gunawan's Next JS + Chakra UI Personalized template](https://socialify.git.ci/yehezkielgunawan/yehez-nextchakra-starter/image?description=1&logo=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Fv1607554385%2Frepositories%2Fnext-js%2Fnext-logo.png&owner=1&pattern=Circuit%20Board&theme=Dark)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/yehezkielgunawan/yehez-nextchakra-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yehezkielgunawan/yehez-nextchakra-starter)
 
