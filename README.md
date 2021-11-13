@@ -15,6 +15,7 @@ But if you also find this template is useful, you also can use it. And of course
   `eslint`, `prettier`, `husky`, & `lint-staged`.
 - ✨Basic responsive layout configuration (using Chakra UI media query)
 - SEO Optimization (using `next-seo`)
+- Now using Next.js 12 with Rust Compiler Minification enabled (you can disabled it at `next.config.js`)
 
 ## How to use it?
 
