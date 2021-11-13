@@ -1,6 +1,6 @@
+import { Stack } from "@chakra-ui/layout";
 import React, { ReactNode } from "react";
 
-import MotionStack from "components/motion/MotionStack";
 import { useDesktopWidthCheck } from "functions/helpers/desktopWidthChecker";
 
 type MainProps = {
@@ -10,7 +10,7 @@ type MainProps = {
 const Main = ({ children }: MainProps) => {
   const isDesktopWidth = useDesktopWidthCheck();
   return (
-    <MotionStack
+    <Stack
       variants={{
         before: { opacity: 0, y: 25, transition: { type: "spring" } },
         after: { opacity: 1, y: 0, transition: { type: "spring" } },
@@ -25,7 +25,7 @@ const Main = ({ children }: MainProps) => {
       spacing={4}
     >
       {children}
-    </MotionStack>
+    </Stack>
   );
 };
 
