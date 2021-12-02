@@ -4,13 +4,10 @@ import { Button } from "@chakra-ui/react";
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 
-import { useDesktopWidthCheck } from "functions/helpers/desktopWidthChecker";
-
 import DarkModeSwitch from "./DarkModeSwitch";
 
 const HeaderComponent = () => {
   const { colorMode } = useColorMode();
-  const isDesktopWidth = useDesktopWidthCheck();
   return (
     <Box
       justifyContent="start"
@@ -28,7 +25,7 @@ const HeaderComponent = () => {
         align="center"
         maxW="48rem"
         mx="auto"
-        px={isDesktopWidth ? 1 : 3}
+        px={[3, 1]}
       >
         <Text as="a" href="/" fontSize="lg">
           <b>yehez-nextjs-chakra-starter</b>

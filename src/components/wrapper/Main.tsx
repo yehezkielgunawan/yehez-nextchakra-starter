@@ -1,14 +1,11 @@
 import { Stack } from "@chakra-ui/layout";
 import React, { ReactNode } from "react";
 
-import { useDesktopWidthCheck } from "functions/helpers/desktopWidthChecker";
-
 type MainProps = {
   children: ReactNode;
 };
 
 const Main = ({ children }: MainProps) => {
-  const isDesktopWidth = useDesktopWidthCheck();
   return (
     <Stack
       variants={{
@@ -20,7 +17,7 @@ const Main = ({ children }: MainProps) => {
       width="100%"
       maxWidth="48rem"
       pt="4rem"
-      px={isDesktopWidth ? 1 : 3}
+      px={[3, 1]}
       mt={8}
       spacing={4}
     >
@@ -30,4 +27,3 @@ const Main = ({ children }: MainProps) => {
 };
 
 export default Main;
-

@@ -17,11 +17,9 @@ import { AiFillGithub } from "react-icons/ai";
 
 import MotionBox from "components/motion/MotionBox";
 import Main from "components/wrapper/Main";
-import { useDesktopWidthCheck } from "functions/helpers/desktopWidthChecker";
 
 const Index = () => {
   const { colorMode } = useColorMode();
-  const isDesktopWidth = useDesktopWidthCheck();
   const textSize = useBreakpointValue({
     base: "xs",
     sm: "md",
@@ -49,7 +47,7 @@ const Index = () => {
         >
           <Image
             alt="Sample Image"
-            boxSize={isDesktopWidth ? "150px" : "100px"}
+            boxSize={["100px", "150px"]}
             objectFit="cover"
             src="https://assets.vercel.com/image/upload/v1607554385/repositories/next-js/next-logo.png"
           />
